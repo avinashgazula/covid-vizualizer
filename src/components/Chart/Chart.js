@@ -41,7 +41,7 @@ const Chart = ({data: {confirmed, recovered, deaths}, country}) => {
     );
 
     const barChart = (
-        confirmed
+        country
             ? (
                 <Bar
                     data={{
